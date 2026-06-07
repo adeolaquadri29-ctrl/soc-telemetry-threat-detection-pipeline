@@ -9,7 +9,7 @@ Procedure
 1. Open PowerShell on the Windows endpoint.
 2. Execute:
 
-Test-NetConnection 8.8.8.8 -Port 443
+Test-NetConnection google.com -Port 80
 
 3. Confirm Sysmon generates Event ID 3.
 4. Verify Filebeat forwards the event.
